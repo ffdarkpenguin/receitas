@@ -1,0 +1,18 @@
+configuração do profile para iniciar com configurações da bag.
+
+{
+    // Make changes here to the powershell.exe profile.
+    "guid": "{3e46435d-9658-4afe-a710-21c47a5c5276}",
+    "name": "Bag Dev",
+    "commandline": "powershell.exe -NoExit -Command \"./.venv/scripts/activate\"",
+    "hidden": false,
+    "startingDirectory": "/dev/bag4"
+},
+
+executar comando sem sair
+
+powershell -NoExit -Command "comando entre aspas duplas!!!"
+
+gerar guid:
+
+[guid]::NewGuid()
