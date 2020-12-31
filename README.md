@@ -1,2 +1,2 @@
-# receitas
-Receitas diversas
+# Receitas diversas
+
